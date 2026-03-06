@@ -7,7 +7,7 @@
 
   <filter>
     <filter-name>baggageFilter</filter-name>
-    <filter-class>com.example.dag.baggage.BaggageServletFilter</filter-class>
+    <filter-class>com.tektondag.baggage.BaggageServletFilter</filter-class>
     <init-param>
       <param-name>role</param-name>
       <param-value>forwarder</param-value>

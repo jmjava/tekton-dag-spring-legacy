@@ -34,6 +34,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <profiles>
+    <profile>
+      <id>baggage</id>
+      <dependencies>
+        <dependency>
+          <groupId>com.tektondag</groupId>
+          <artifactId>baggage-servlet-filter</artifactId>
+          <version>1.0.0</version>
+        </dependency>
+      </dependencies>
+    </profile>
+  </profiles>
   <build>
     <plugins>
       <plugin>
